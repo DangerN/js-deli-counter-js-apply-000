@@ -14,7 +14,16 @@ function takeANumber(katzDeliLine,name)
 
 function nowServing(katzDeliLine)
 {
-  
+  var output = "";
+  var position = 1;
+  if(katzDeliLine.length > 0)
+  {
+    output = "Currently serving " + katzDeliLine[0] + ".";
+    while(katzDeliLine.length >= position)
+    {
+      
+    }
+  }
 }
 
 function currentLine(katzDeliLine)
