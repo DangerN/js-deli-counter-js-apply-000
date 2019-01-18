@@ -21,5 +21,9 @@ function currentLine(katzDeliLine)
 {
   var position = 1;
   var output = "The line is currently: "
-  if 
+  if (katzDeliLine.length > 0)
+  {
+    
+  }
+  else()
 }
