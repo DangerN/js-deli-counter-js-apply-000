@@ -19,11 +19,18 @@ function nowServing(katzDeliLine)
   if(katzDeliLine.length > 0)
   {
     output = "Currently serving " + katzDeliLine[0] + ".";
-    while(katzDeliLine.length >= position)
+    while(katzDeliLine.length > position)
     {
-      
+      katzDeliLine[position - 1] = katzDeliLine[position];
+      position++;
     }
+    katzDeliLine[position - 1] = "";
   }
+  else
+  {
+    output = "There is nobody waiting to be served!";
+  }
+  return output;
 }
 
 function currentLine(katzDeliLine)
