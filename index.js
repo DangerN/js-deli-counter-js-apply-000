@@ -19,5 +19,6 @@ function nowServing(katzDeliLine)
 
 function currentLine(katzDeliLine)
 {
+  var position = 1;
   
 }
