@@ -20,10 +20,26 @@ function nowServing(katzDeliLine)
 function currentLine(katzDeliLine)
 {
   var position = 1;
-  var output = "The line is currently: "
+  var output = "The line is currently";
   if (katzDeliLine.length > 0)
   {
+    //while(position == 1){output = output + ": ";} lol way too complicated
+    output = output + ": ";
     
+    do
+    {
+      output = output + postion + ". " + katzDeliLine[postion - 1];
+      if(katzDeliLine.length > position)
+      {
+        output = output + ", ";
+      }
+      position++;
+    }while(katzDeliLine.length > position);
+    return output;
   }
-  else()
+  else
+  {
+    output = output + " empty.";
+    return output;
+  }
 }
