@@ -25,7 +25,6 @@ function nowServing(katzDeliLine)
       position++;
     }
     //katzDeliLine[position - 1] = null;
-    katzDeliLine =
     
   }
   else
