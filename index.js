@@ -28,7 +28,7 @@ function currentLine(katzDeliLine)
     
     do
     {
-      output = output + position + ". " + katzDeliLine[postion - 1];
+      output = output + position + ". " + katzDeliLine[position - 1];
       if(katzDeliLine.length > position)
       {
         output = output + ", ";
