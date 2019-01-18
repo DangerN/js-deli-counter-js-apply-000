@@ -20,5 +20,6 @@ function nowServing(katzDeliLine)
 function currentLine(katzDeliLine)
 {
   var position = 1;
-  
+  var output = "The line is currently: "
+  if 
 }
