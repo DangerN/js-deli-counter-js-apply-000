@@ -24,7 +24,8 @@ function nowServing(katzDeliLine)
       katzDeliLine[position - 1] = katzDeliLine[position];
       position++;
     }
-    //katzDeliLine[position - 1] = "";
+    //katzDeliLine[position - 1] = ""; worth a try
+    
   }
   else
   {
