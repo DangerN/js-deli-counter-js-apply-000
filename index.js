@@ -34,7 +34,7 @@ function currentLine(katzDeliLine)
         output = output + ", ";
       }
       position++;
-    }while(katzDeliLine.length > position);
+    }while(katzDeliLine.length >= position);
     return output;
   }
   else
